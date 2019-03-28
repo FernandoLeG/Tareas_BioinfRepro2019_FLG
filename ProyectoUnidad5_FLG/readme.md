@@ -10,21 +10,17 @@ The R package LEA will be used to assess genetic structure for the populations c
 
 ## Directories for the data
 
-Directory 'ProyectoUnidad5_FLG/Data/ This directoy will contain the tha data as it was downloaded and as it will be used in future analyses.
-
-Directory 'ProyectoUnidad5_FLG/Data/Raw' This folder will contain the data as it was downloaded. Having a total of fourteen samples.
-
-Directory 'ProyectoUnidad5_FLG/Data/clustered' this folder will contain the data outputs from ipyrad clustering analyses.
+Directory 'ProyectoUnidad5_FLG/Data/ This directoy contains the files that reference de data in the analyses
 
 ## Directories containing scripts
 
 Directory 'ProyectoUnidad5_FLG/bin' This folder will contain folders with the scripts used in the project and will be presented in order of usage.
 
-Directory 'ProyectoUnidad5_FLG/bin/clustering Thid folder will contain the script used for trimmomatic and ipyrad.
+Directory 'ProyectoUnidad5_FLG/bin/clustering Thid folder contains the script used for trimmomatic and ipyrad.
 
-Directory 'ProyectoUnidad5_FLG/bin/vcftools' This folder will cotain the scripts ofr obtaining population gentics statistics.
+Directory 'ProyectoUnidad5_FLG/bin/vcftools' This folder will cotain the scripts ofr obtaining population gentics statistics in vcftools.
 
-Directory 'ProyectoUnidad5_FLG/Data/LEA' This folder will contain the scripts for the genetic structure analyses.
+Directory 'ProyectoUnidad5_FLG/Data/LEA' This folder will contain the scripts for the genetic structure analyses done using LEA.
 
 
 
