@@ -14,15 +14,17 @@ Directory 'ProyectoUnidad5_FLG/Data/ This directoy contains the files that refer
 
 ## Directories containing scripts
 
-Directory 'ProyectoUnidad5_FLG/bin' This folder will contain folders with the scripts used in the project and will be presented in order of usage.
+Directory `ProyectoUnidad5_FLG/bin` This folder contains the scripts used in the project and are presented in order of usage.
 
-Directory 'ProyectoUnidad5_FLG/bin/clustering Thid folder contains the script used for trimmomatic and ipyrad.
+### 1. Trmmfilter.sh:
+This script is for filtering the samples `/seq_or` with Trimmomatic before the ipyrad pipeline and writing the output files in `/clean_seq`. 
 
-Directory 'ProyectoUnidad5_FLG/bin/vcftools' This folder will cotain the scripts ofr obtaining population gentics statistics in vcftools.
+### 2. ipyradpipe.sh:
+This script runs the ipyrad pipeline on the filtered samples in `/clean_seq`
 
-Directory 'ProyectoUnidad5_FLG/Data/LEA' This folder will contain the scripts for the genetic structure analyses done using LEA.
+### 3. vcftools_sc.sh:
+This script contains line for doing obtaining population genetics satitstics using vcftools
 
-
-
-
+### 4. LEA_sc.R:
+This script contains the lines for building the genetic structure plot with the package LEA.
  
