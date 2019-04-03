@@ -2,19 +2,18 @@
 
 This project will be based on the data publidshed by Ruegg et. al, 2018.
 They used Rad loci for analyses of landscape genomics and climate change vulnearability, but aside form FST values, no population genetics anlyses were done.The data set has a large geogrpahic reprentation and sample numbers making it ideal for population genetics and phylogeography. 
-The data available for download is not ready for anlysis as it is comprised of the raw reads, so prior filtering and clutering analyses will be done, using trimmomatic and ipyrad.
-VCFtools will be used to obtain population genetics statistics.
-The R package LEA will be used to assess genetic structure for the populations considered.
 
 # Organization of the project
 
 ## Directories for the data
 
-Directory 'ProyectoUnidad5_FLG/Data/ This directoy contains the files that reference de data in the analyses
+Directory `ProyectoUnidad5_FLG/Data/` This directoy contains the files that reference de data in the analyses
+
+Directory `ProyectoUnidad5_FLG/Data/Plots` this Directory contains the plots obtained form the analyses
 
 ## Directories containing scripts
 
-Directory `ProyectoUnidad5_FLG/bin` This folder contains the scripts used in the project and are presented in order of usage.
+Directory `ProyectoUnidad5_FLG/bin` This folder contains the scripts used in the project, the order noted in this README is the onde used for running the scripts
 
 ### 1. Trimmfilter.sh:
 This script is for filtering the samples `/seq_or` with Trimmomatic before the ipyrad pipeline and writing the output files in `/clean_seq`. 
