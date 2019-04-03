@@ -11,6 +11,8 @@ Directory `ProyectoUnidad5_FLG/Data/` This directoy contains the files that refe
 
 Directory `ProyectoUnidad5_FLG/Data/Plots` this Directory contains the plots obtained form the analyses
 
+Directory `ProyectoUnidad5_FLG/Data/Metadata` This directory has files tha reference order and names of the samples
+
 ## Directories containing scripts
 
 Directory `ProyectoUnidad5_FLG/bin` This folder contains the scripts used in the project, the order noted in this README is the onde used for running the scripts
