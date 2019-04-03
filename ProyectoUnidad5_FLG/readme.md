@@ -16,7 +16,7 @@ Directory 'ProyectoUnidad5_FLG/Data/ This directoy contains the files that refer
 
 Directory `ProyectoUnidad5_FLG/bin` This folder contains the scripts used in the project and are presented in order of usage.
 
-### 1. Trmmfilter.sh:
+### 1. Trimmfilter.sh:
 This script is for filtering the samples `/seq_or` with Trimmomatic before the ipyrad pipeline and writing the output files in `/clean_seq`. 
 
 ### 2. ipyradpipe.sh:
