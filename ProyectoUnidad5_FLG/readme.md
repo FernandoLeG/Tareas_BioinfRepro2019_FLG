@@ -15,6 +15,8 @@ Directory `ProyectoUnidad5_FLG/Data/Metadata` This directory has files tha refer
 
 ## Directories containing scripts
 
+Running the following scripts requires Trimmomatic v. 0.32, ipyrad v.0.7.28, vcftools v. 0.1.15 and LEA Package
+
 Directory `ProyectoUnidad5_FLG/bin` This folder contains the scripts used in the project, the order noted in this README is the onde used for running the scripts
 
 ### 1. Trimmfilter.sh:
