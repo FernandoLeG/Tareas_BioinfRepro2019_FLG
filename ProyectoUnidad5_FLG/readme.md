@@ -13,7 +13,7 @@ Directory `ProyectoUnidad5_FLG/Data/Plots` this Directory contains the plots obt
 
 Directory `ProyectoUnidad5_FLG/Data/Metadata` This directory has files tha reference order and names of the samples
 
-## Directories containing scripts
+## Scripts
 
 Running the following scripts requires Trimmomatic v. 0.32, ipyrad v.0.7.28, vcftools v. 0.1.15 and LEA Package
 
@@ -30,4 +30,6 @@ This script contains line for doing obtaining population genetics satitstics usi
 
 ### 4. LEA_sc.R:
 This script contains the lines for building the genetic structure plot with the package LEA.
+
+
  
