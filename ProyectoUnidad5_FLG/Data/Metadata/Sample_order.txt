@@ -1,0 +1,9 @@
+Order of samples
+1. EU_Cal_1
+2. EU_Mon_2
+3. EU_Or_1
+4. EU_Or_2
+5. ex_Ar
+6. ex_Cal_2
+7. ex_Ut_1
+8. ex_Ut_2

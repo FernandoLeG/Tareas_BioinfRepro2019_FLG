@@ -1,0 +1,14 @@
+Suebespecie,Estado,Localidad,SRA,BioSample,Nombre
+adastus,Monatana,Lee_metcalf,SRS3219620 ,SAMN08983285,EU_Mon_1
+adastus,Monatana,Hamon_Memorial,SRS3219630 ,SAMN08983288,EU_Mon_2
+brewsteri,Oregon,Priem_Road,SRS3219635 ,SAMN08983316,EU_Or_1
+brewsteri,California,Bigelow_Meadows,SRS3219692 ,SAMN08983224,EU_Cal_1
+extimus,Utah,White_river,SRS3219738,SAMN08983369,ex_Ut_1
+traillii,Indiana,Willow_slew,SRS3219804,SAMN08983276,EU_Ind
+traillii,Pennsylvania,Easton,SRS3219665,SAMN08983340,EU_Pen_1
+traillii,Pennsylvania,Orefield,SRS3219672,SAMN08983338,EU_Pen_2
+brewsteri,Oregon,Finley,SRS3219637,SAMN08983310,EU_Or_2
+extimus,California,South_Frok_River,SRS3219683,SAMN08983239,ex_Cal_3
+extimus,Arizona,,SRS3219745,SAMN08983176,ex_Ar
+extimus,California,South_Frok_River,SRR7196381,SAMN08983237,ex_Cal_2
+extimus,California,San_Diego,SRR7064782,SAMN08983248 ,ex_Cal_1
