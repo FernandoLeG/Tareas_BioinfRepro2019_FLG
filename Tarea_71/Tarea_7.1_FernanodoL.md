@@ -46,7 +46,7 @@ Bad        Good     Good***    Good****    No match     Perfect  Perfect*** Perf
 
 Cuadro1. Resultado de la clasificación tras la anotación
 
-![Boxplot raw qc](/output/boxplot_raw_probe_qc.png)
+![Boxplot raw qc](Tareas_BioinfRepro2019_FLG/Tarea_71/output/boxplot_raw_probe_qc.png)
 
 
 
@@ -57,7 +57,7 @@ Cuadro1. Resultado de la clasificación tras la anotación
 
 Se puede observar  en los diagramas de calidad (Figura 1) claramente que existe un mayor número de sondas de buena calidad, evidenciado por el ancho de los diagramas, así que todos los arreglos presentan una intensidad similar .
 
-![Boxplot raw qc](/output/boxplot_raw_treatment.png)
+![Boxplot raw qc](Tareas_BioinfRepro2019_FLG/Tarea_71/output/boxplot_raw_treatment.png)
 
 Figura 2 Diagramas que muestran la intensidad y posición de las sondas de acuerdo al tratamiento. Los individuos castrados se presentan en rojo, mientras que los intactos, en verde.
 
@@ -65,7 +65,7 @@ Figura 2 Diagramas que muestran la intensidad y posición de las sondas de acuer
 
 No parecen existir diferencias significativas entre las medias de intensidad entre los dos tratamientos (figura 2.)
 
-![](/output/P-values Hist.png)
+![](Tareas_BioinfRepro2019_FLG/Tarea_71/output/P-values Hist.png)
 
 Figura 3.  Gráficos de distribución de los valores p. Ptab valores en tabulación. Pvalperm permutación. F1 prueba F Fs prueba F con contracción de varianza.
 
@@ -75,7 +75,7 @@ Se puede observar que para los tres efectos la mayor parte de los valores p se a
 
 
 
-![](/output/vennDiagram_DiffExprs.png)
+![](Tareas_BioinfRepro2019_FLG/Tarea_71/output/vennDiagram_DiffExprs.png)
 
 Figura 4. diagrama de Venn con el número de genes diferencialmente expresados entre los distintos efectos
 
@@ -83,7 +83,7 @@ Figura 4. diagrama de Venn con el número de genes diferencialmente expresados e
 
 Se puede observar en la figura 4 que los efectos individuales poseen más genes expresados diferencialmente que la interacción, esto concuerda con lo expresado ene l gráfico anterior, donde la gran cantidad de genes presentes para los efectos individuales pudo generar el patrón de gran densidad cerca de valores significativos .
 
-![](/output/vennDiagram_Int.png)
+![](Tareas_BioinfRepro2019_FLG/Tarea_71/output/vennDiagram_Int.png)
 
 Figura 5 diagramas de Venn para los distintos tratamientos.
 
