@@ -20,14 +20,13 @@ Se calcularon los valores p para el agrupamiento jerárquico con remuestreos Boo
 
 Para hacer el ajuste del modelo  al esquema de K seleccionado se hizo uso del paquete mclust v. 5.4.3 (Raftery, Scrucca, Murohy y Fop). Este paquete utiliza un algoritmo Expectation and maximization (EM), escogiendo el modelo usando criterio de información bayesiana.
 
-Se realizó un gráfico de los dos primeros componentes principales para visualizar ala agrupación de las sondas en el esquema de K's propuesto. para esto se utilizó el paquete de R cluster v. 2.09
+Se realizó un gráfico de los dos primeros componentes principales para visualizar a la agrupación de las sondas en el esquema de K's propuesto. para esto se utilizó el paquete de R cluster v. 2.09
 
 # Resultados	
 ![](https://github.com/FernandoLeG/Tareas_BioinfRepro2019_FLG/blob/master/Tarea_72/output/sumsqk.png)
 Fgura 1 Gráfico de suma se cuedrados para los dsitintos esquemas
 
-
-Para el esquema de agrupación de K=4, el clúster concentra la mayor parte de las sondas con 4368. El esquema K=5 presenta un patrón similar con el que e grupo 5 concentra 4228 sondas. Esto podría deberse a que  estas sondas están siendo forzadas a formar el clúster. Los análisis subsecuentes fueron realizados con el esquema de partición K=5
+Se eligió mostra los K=4 y K=5 debido a que es el punto del gráfico donde se presenta la últims disminución importante del valor de suma de cuadrados y presenta un esuqema manejable de datos. Para el esquema de agrupación de K=4, el clúster concentra la mayor parte de las sondas con 4368. El esquema K=5 presenta un patrón similar con el que e grupo 5 concentra 4228 sondas. Esto podría deberse a que  estas sondas están siendo forzadas a formar el clúster. Los análisis subsecuentes fueron realizados con el esquema de partición K=5
 
 
 |           | K    |      |      |      |      |
