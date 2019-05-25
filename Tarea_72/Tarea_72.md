@@ -1,4 +1,4 @@
-# Tarea 7.2
+# Tarea 7.2 Clustering de sondas de cromosoma Y en ratones con dos distintos tratamientos
 
 Fernando León García, Maestría en Ciencias Biológicas
 
@@ -20,11 +20,14 @@ Se calcularon los valores p para el agrupamiento jerárquico con remuestreos Boo
 
 Para hacer el ajuste del modelo  al esquema de K seleccionado se hizo uso del paquete mclust v. 5.4.3 (Raftery, Scrucca, Murohy y Fop). Este paquete utiliza un algoritmo Expectation and maximization (EM), escogiendo el modelo usando criterio de información bayesiana.
 
-Se realizó un gráfico de los dos primeros componentes principales para visualizar ala agrupación de las sondas en el esquema de K's propuesto. para esto se utilizó el paquete de R cluster v. 2.09
+Se realizó un gráfico de los dos primeros componentes principales para visualizar a la agrupación de las sondas en el esquema de K's propuesto. para esto se utilizó el paquete de R cluster v. 2.09
 
 # Resultados	
+![](https://github.com/FernandoLeG/Tareas_BioinfRepro2019_FLG/blob/master/Tarea_72/output/sumsqk.png)
+Fgura 1 Gráfico de suma se cuedrados para los dsitintos esquemas
 
-Para el esquema de agrupación de K=4, el clúster concentra la mayor parte de las sondas con 4368. El esquema K=5 presenta un patrón similar con el que e grupo 5 concentra 4228 sondas. Esto podría deberse a que  estas sondas están siendo forzadas a formar el clúster. Los análisis subsecuentes fueron realizados con el esquema de partición K=5
+Se eligió mostra los K=4 y K=5 debido a que es el punto del gráfico donde se presenta la últims disminución importante del valor de suma de cuadrados y presenta un esuqema manejable de datos. Para el esquema de agrupación de K=4, el clúster concentra la mayor parte de las sondas con 4368. El esquema K=5 presenta un patrón similar con el que e grupo 5 concentra 4228 sondas. Esto podría deberse a que  estas sondas están siendo forzadas a formar el clúster. Los análisis subsecuentes fueron realizados con el esquema de partición K=5
+
 
 |           | K    |      |      |      |      |
 | --------- | ---- | ---- | ---- | ---- | ---- |
@@ -35,7 +38,13 @@ Para el esquema de agrupación de K=4, el clúster concentra la mayor parte de l
 
 Cuadro 1. Sondas asociadas con cada grupo delos dos esquemas de partición K=4 y K=5
 
+![](https://github.com/FernandoLeG/Tareas_BioinfRepro2019_FLG/blob/master/Tarea_72/output/phclust.png)
+Figura 2. Dendrograma de distnacia euclidiana los valores de soporte se encuentran en verde y rojo
+
 Se observa en el dendrograma de agrupación jerárquica que todos los genotipos-tratamiento se encuentran muy cercanos. Sin embargo, se puede encontrar al menos un clúster bien definido. Este es el clúster que incluye a genotipo BY castrado, pero se tiene que tener en cuenta que los valores de soporte al interior del grupo son bajos. Exceptuando a los dos intactos de genotipo BY que se agrupan con BY castrados, los de tratamiento intacto forman un clúster. Genotipo B castrado no parece tener una agrupación clara.  Los resultados obtenido parecen indicar que, ni el algoritmo de agrupación y ni las sondas utilizadas son los más óptimos para discernir entre los distintos efectos del modelo. sin embargo, debe ser considerado que este dendrograma fue producto de un algoritmo de distancia, lo cual puede ocultar parte de la información al tener que condensar toda la información en valores de distancia
+
+![](https://github.com/FernandoLeG/Tareas_BioinfRepro2019_FLG/blob/master/Tarea_72/output/pcaplot.png)
+Figura 3. Gráfico d elos dos primeros componenetes principlaes, cada agrupación tiene su númeor de clúster asociado
 
 En la gráfica de componentes principales  se pude observar que, los grupos más homogéneos son aquellos con el menor número de sondas, en este caso, grupos 2 y 4 con 46 y 18 sondas, respectivamente. El grupo más homogéneo es el 5, siendo el que más sondas contiene. Esto puede deberse a que todas las sondas están actuando para soportar el grupo formado.
 
